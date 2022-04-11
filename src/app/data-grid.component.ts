@@ -13,7 +13,7 @@ const length = 50;
   changeDetection: ChangeDetectionStrategy.Default
 })
 export class DataGridComponent {
-  data = Array.from({ length }, () =>
+  rows = Array.from({ length }, () =>
     Array.from({ length }, () => ({ total: Math.random() }))
   );
 }

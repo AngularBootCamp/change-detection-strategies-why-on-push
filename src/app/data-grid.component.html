@@ -3,7 +3,7 @@
     <div class="card-title">
       Expensive Component That Doesn't Need Updating
     </div>
-    <div *ngFor="let row of data">
+    <div *ngFor="let row of rows">
       <span *ngFor="let cell of row"
         >{{ cell.total | number: '1.3-3' }},
       </span>
