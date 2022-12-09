@@ -1,6 +1,5 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "defaultProject": "change-detection-strategies-why-on-push",
   "newProjectRoot": "projects",
   "projects": {
     "change-detection-strategies-why-on-push": {
