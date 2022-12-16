@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { interval } from 'rxjs';
-import { map } from 'rxjs/operators';
+import { interval, map } from 'rxjs';
 
 @Component({
   selector: 'abc-clock',
