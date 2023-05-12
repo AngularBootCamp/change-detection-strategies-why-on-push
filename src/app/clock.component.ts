@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { interval, map } from 'rxjs';
 
 @Component({
-  selector: 'abc-clock',
+  selector: 'app-clock',
   templateUrl: './clock.component.html'
 })
 export class ClockComponent {

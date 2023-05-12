@@ -3,7 +3,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 const length = 50;
 
 @Component({
-  selector: 'abc-data-grid',
+  selector: 'app-data-grid',
   templateUrl: './data-grid.component.html',
   /*
     Switch strategies and compare the CPU utilization
