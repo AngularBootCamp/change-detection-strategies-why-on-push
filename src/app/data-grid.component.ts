@@ -1,4 +1,4 @@
-import { NgFor, DecimalPipe } from '@angular/common';
+import { DecimalPipe } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 const length = 50;
@@ -13,7 +13,7 @@ const length = 50;
   // changeDetection: ChangeDetectionStrategy.OnPush
   changeDetection: ChangeDetectionStrategy.Default,
   standalone: true,
-  imports: [NgFor, DecimalPipe]
+  imports: [DecimalPipe]
 })
 export class DataGridComponent {
   rows = Array.from({ length }, () =>
